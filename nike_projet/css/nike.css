@@ -77,6 +77,9 @@ img{
   justify-content: center;
 }
 
+
+
+
 .soldes {
   position: absolute;
   width:100%;
@@ -152,30 +155,45 @@ footer {
 
   display:flex;
   flex-direction:row;
+  justify-content: center;
 
 }
 
 .logo-nike {
 
   background-color: var(--main-color-2);
+  order:0;
+ 
+  
 }
 
 
 .logo-nike>img {
 
   width:100%;
+  padding-top: 20px;
+
+ 
  
 
 }
 
-.doit>p {
+.doit>#just {
 
   color: var(--main-color-2);
-  font-size:40px;
+  font-size:60px;
   font-family: arial;
   font-weight: bold;
+  margin-left: 600px;
+ 
+ 
 
 
+}
+
+.doit {
+
+  flex-grow: 1;
 }
 
 
